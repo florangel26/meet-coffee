@@ -1,5 +1,7 @@
 $(function () {
-
+  
+  $('[data-toggle="popover"]').popover();
+  
   $("a").click(function (event) {
     if (this.hash !== "") {
       event.preventDefault();
@@ -12,7 +14,7 @@ $(function () {
         window.location.hash = gato;
       });
 
-      $('[data-toggle="popover"]').popover();
+      
     }
   });
 });
