@@ -3,7 +3,7 @@ background-image: url("../img/bg_hero.png");
 background-size:cover;
 background-position: center;
 background-repeat: no-repeat;
-padding: 25em;
+
 }
 .navbar{
 background-color: #660066!important;
@@ -12,12 +12,13 @@ color:#ffffff!important;
 .logop{
 padding: 1em;
 text-align: left;
-margin: 0 auto;
+font-family:"Oswald" !important;
+font-weight: bold;
+margin-bottom: 5%;
 
 }
 .navbar-brand{
   font-family: "Oswald" !important;
-  height: 40px;
   font-weight:600;
   font-size: 35px;
 }
@@ -53,6 +54,7 @@ margin-bottom: 0rem;
   height: auto;
   width: 150px
 }
+
 .col-md-6{
   list-style: none;
     margin: 0 0px 20px 0;
@@ -62,6 +64,7 @@ margin-bottom: 0rem;
 
 .coment{
     margin-bottom: 10px;
+
 }
 
 .display-4{
@@ -79,13 +82,14 @@ font-size: 55px;
 
 }
 .logofooter{
-  font-family: "Oswald" !important;
-  font-weight: 600;
-  height: 60px;
+font-family: "Oswald" !important;
+font-weight: 600;
+height: 50px;
 font-size: 30px;
-text-align: center;
 margin: 0 auto;
-color:white;
+color:#ffffff;
+margin-top: 6px;
+
 }
 .carousel-indicators {
  bottom:-50px;
@@ -114,18 +118,19 @@ color:white;
 }
 
 .Button{
-  text-align:center;
-  max-width: 140px;
-  font-size: 20pt;
-  font-family: "opensans";
+margin: 0 auto;
+  width: 240px;
+  font-size: 25pt;
+  font-family: "open";
+  font-weight: lighter;
   border-color: #DDDDDD !important;
   height: 60px;
 }
 .popover{
     background:#666666;
-  }
+}
 
-  .popover-body{
+.popover-body{
     color: white !important;
   }
 @media only screen and (max-width: 980px) {
@@ -143,7 +148,6 @@ background-image: url("../img/bg_hero.png");
 }
 
 footer{
-  position: fixed;
   left: 0;
   width: 100%;
   font-family: "Oswald" !important;
@@ -163,65 +167,53 @@ footer{
 
 
 @media only screen and (min-width: 300px) {
-  header {
+/*  header {
     background-image: url(../img/bg_hero.png);
     background-size: 190%;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-position-x: -220px; */
-    height: 388px;
+    /* background-position-x: -220px;
     padding: unset;
-  }
+  } */
 
-  .blogRow{
-    display: none;
-  }
 
   .nameContainer{
     padding-top: 215px;
   }
 
-  .yosoy {
-    font-size: 38px;
-}
 
-  .magdalena{
-    font-size: 39px;
-  }
-
-  .presentacion{
-    display: none;
-  }
-}
 
 @media only screen and (min-width: 768px) {
-  header {
+/*  header {
     background-image: url(../img/bg_hero.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-position-x: -220px; */
-    height: 900px;
+    /* background-position-x: -220px;
     padding: unset;
-  }
+  }*/
 
   .nameContainer{
     padding-top: 25%;
   }
 
   .yosoy {
-    font-size: 65px;
+    font-size: 45px;
+    font-family: "Oswald" !important;
+    font-weight: lighter;
+    margin-top: 25%;
 }
 
   .magdalena{
-    font-size: 70px;
+    font-size: 55px;
+    font-family: "Oswald" !important;
+    font-weight: bold;
   }
-}
 
 @media only screen and (min-width: 1024px) {
 
 
-}    
+}
 
 .divIcons{
   color: white;
@@ -234,7 +226,9 @@ footer{
 }
 
 .sectionTitle{
+  font-family: "Oswald" !important;
   font-weight: 600;
+  padding: 1em;
 }
 
 .sectionContainer{
@@ -242,4 +236,16 @@ footer{
     width: 100%;
     margin-right: 35px;
     padding-right: 50px;
+}
+
+.cont{
+  font-size: 40px;
+  font-family: "Oswald" !important;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.expert{
+  font-size: 40px;
+  font-family: "Oswald" !important;
+  font-weight: bold;
 }
